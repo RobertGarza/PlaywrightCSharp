@@ -32,9 +32,6 @@ namespace Steps
         public async Task TheUserGetsPerfect()
         {
             Console.WriteLine("Hello There");
-            //string innerHtml = await page.Locator("body").InnerHTMLAsync();
-            //bool result = innerHtml.Contains("Your Birth Date is 2222-02-20<br>Your Birth Time is 16:43");
-            //Assert.That(result, Is.True);
         }
     }
 }
