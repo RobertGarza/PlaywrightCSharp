@@ -5,7 +5,7 @@ I want to be able to drag BANK and SALES into the Account columns and the amount
 So that above these tables I see the different movements I’ve done by dragging and dropping items
 
     @automated
-    Scenario: User want to select my birthday on the given page
+    Scenario: User want to drag and drop selectors on a given page
         Given the user is on "drag and drop" page
         When the user drags and drop items
         Then the user can see a perfect button appearing

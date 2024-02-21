@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using Pages;
 using TechTalk.SpecFlow;
 
@@ -31,7 +32,7 @@ namespace Steps
         [Then(@"the user can see a perfect button appearing")]
         public async Task TheUserGetsPerfect()
         {
-            Console.WriteLine("Hello There");
+            await dragAndDropPage.AssertDragAndDropValues();
         }
     }
 }
